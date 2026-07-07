@@ -1,0 +1,30 @@
+// ============================================================
+// CertiAce — Inventory KPI Measures
+// ============================================================
+
+Total Stock On Hand = SUM(FactInventory[StockOnHand])
+
+Out of Stock Count =
+CALCULATE(COUNTROWS(FactInventory), FactInventory[StockOnHand] = 0)
+
+Out of Stock Rate =
+DIVIDE([Out of Stock Count], COUNTROWS(FactInventory), 0)
+
+Reorder Required Count =
+CALCULATE(
+    COUNTROWS(FactInventory),
+    FactInventory[ReorderStatus] = "Reorder Required"
+)
+
+Reorder Alert Rate =
+DIVIDE([Reorder Required Count], COUNTROWS(FactInventory), 0)
+
+Avg Days of Supply =
+AVERAGE(FactInventory[DaysOfSupply])
+
+// Products with critical stock (< 20% of reorder point)
+Critical Stock Items =
+CALCULATE(
+    COUNTROWS(FactInventory),
+    FactInventory[StockOnHand] <= FactInventory[ReorderPoint] * 0.2
+)

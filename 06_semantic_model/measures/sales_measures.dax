@@ -1,0 +1,72 @@
+// ============================================================
+// CertiAce Retail Analytics — Core Sales Measures
+// Semantic Model: CertiAce_Model
+// Author: Erick Kiprotich Yegon, PhD | DP-600
+// ============================================================
+
+// -- CORE SALES --
+
+Total Net Sales = SUM(FactSales[NetSales])
+
+Total Gross Sales = SUM(FactSales[GrossSales])
+
+Total COGS = SUM(FactSales[COGS])
+
+Total Gross Margin = SUM(FactSales[GrossMargin])
+
+Gross Margin % =
+DIVIDE([Total Gross Margin], [Total Net Sales], 0)
+
+Units Sold = SUM(FactSales[Quantity])
+
+Transaction Count = DISTINCTCOUNT(FactSales[SaleID])
+
+Avg Transaction Value =
+DIVIDE([Total Net Sales], [Transaction Count], 0)
+
+Avg Units Per Transaction =
+DIVIDE([Units Sold], [Transaction Count], 0)
+
+// -- TIME INTELLIGENCE --
+
+Sales MTD =
+CALCULATE([Total Net Sales], DATESMTD(DimDate[Date]))
+
+Sales QTD =
+CALCULATE([Total Net Sales], DATESQTD(DimDate[Date]))
+
+Sales YTD =
+CALCULATE([Total Net Sales], DATESYTD(DimDate[Date]))
+
+Sales PY =
+CALCULATE([Total Net Sales], PREVIOUSYEAR(DimDate[Date]))
+
+Sales PYTD =
+CALCULATE([Total Net Sales], DATESYTD(DATEADD(DimDate[Date], -1, YEAR)))
+
+Sales YoY Variance =
+VAR Current = [Total Net Sales]
+VAR Prior = [Sales PY]
+RETURN Current - Prior
+
+Sales YoY Growth % =
+VAR Current = [Total Net Sales]
+VAR Prior = [Sales PY]
+RETURN DIVIDE(Current - Prior, Prior, BLANK())
+
+// -- REGIONAL (respects RLS) --
+
+Region % of Total =
+DIVIDE(
+    [Total Net Sales],
+    CALCULATE([Total Net Sales], ALLEXCEPT(DimStores, DimStores[Region])),
+    0
+)
+
+// -- RUNNING TOTAL (DAX Window) --
+
+Running Sales Total =
+SUMX(
+    WINDOW(1, ABS, 0, REL, ORDERBY(DimDate[Date], ASC), PARTITIONBY()),
+    [Total Net Sales]
+)

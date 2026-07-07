@@ -1,0 +1,34 @@
+// ============================================================
+// CertiAce — Supplier Delivery Anomaly Detection (KQL)
+// ============================================================
+
+// Suppliers with chronic late deliveries (last 90 days)
+SupplierDeliveries
+| where OrderDate > ago(90d)
+| where DeliveryStatus != "On Time"
+| extend DelayDays = datetime_diff('day', ActualDeliveryDate, ExpectedDeliveryDate)
+| summarize
+    LateDeliveries = count(),
+    AvgDelayDays = avg(DelayDays),
+    MaxDelayDays = max(DelayDays),
+    TotalShortfall = sum(QuantityOrdered - QuantityReceived)
+  by SupplierID
+| where LateDeliveries >= 3
+| order by AvgDelayDays desc
+
+// Missing delivery date records
+SupplierDeliveries
+| where isnull(ActualDeliveryDate)
+| summarize MissingCount = count() by SupplierID, bin(OrderDate, 7d)
+| order by MissingCount desc
+
+// File naming anomalies (data quality check)
+SupplierDeliveries
+| extend IsValidFileName = FileSource matches regex @"SAP_EXPORT_\d{8}\.csv"
+| summarize
+    ValidFiles = countif(IsValidFileName == true),
+    InvalidFiles = countif(IsValidFileName == false),
+    InvalidRate = round(100.0 * countif(IsValidFileName == false) / count(), 2)
+  by bin(OrderDate, 1d)
+| where InvalidFiles > 0
+| order by OrderDate desc

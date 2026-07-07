@@ -1,0 +1,19 @@
+GroupName,Region,Role,AccessLevel,RLSFilter
+SG_RegMgr_Northeast_US,Northeast US,Regional Manager,Read,"[Region] = ""Northeast US"""
+SG_RegMgr_Southeast_US,Southeast US,Regional Manager,Read,"[Region] = ""Southeast US"""
+SG_RegMgr_Midwest_US,Midwest US,Regional Manager,Read,"[Region] = ""Midwest US"""
+SG_RegMgr_Southwest_US,Southwest US,Regional Manager,Read,"[Region] = ""Southwest US"""
+SG_RegMgr_West_US,West US,Regional Manager,Read,"[Region] = ""West US"""
+SG_RegMgr_Canada_East,Canada East,Regional Manager,Read,"[Region] = ""Canada East"""
+SG_RegMgr_Canada_West,Canada West,Regional Manager,Read,"[Region] = ""Canada West"""
+SG_RegMgr_UK_and_Ireland,UK & Ireland,Regional Manager,Read,"[Region] = ""UK & Ireland"""
+SG_RegMgr_France_and_Benelux,France & Benelux,Regional Manager,Read,"[Region] = ""France & Benelux"""
+SG_RegMgr_DACH,DACH,Regional Manager,Read,"[Region] = ""DACH"""
+SG_RegMgr_Nordics,Nordics,Regional Manager,Read,"[Region] = ""Nordics"""
+SG_RegMgr_Southern_Europe,Southern Europe,Regional Manager,Read,"[Region] = ""Southern Europe"""
+SG_RegMgr_Eastern_Europe,Eastern Europe,Regional Manager,Read,"[Region] = ""Eastern Europe"""
+SG_Executives,ALL,Executive,Read,ALL
+SG_DataEngineers,ALL,Data Engineer,ReadWrite,ALL
+SG_DataScientists,ALL,Data Scientist,Read_Silver,ALL
+SG_Analysts,ALL,Analyst,Read_Gold,ALL
+SG_FabricAdmins,ALL,Fabric Admin,Admin,ALL

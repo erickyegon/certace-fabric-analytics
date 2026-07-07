@@ -1,0 +1,59 @@
+SupplierID,SupplierName,Country,ContactEmail,LeadTimeDays,ContractValue,SupplierTier,IsActive,PricingCategory
+SUP001,Schneider-Armstrong,Japan,chase63@green.info,44,3686193.93,Tier 2,1,Standard
+SUP002,Leon-Miller,India,xsmith@espinoza.com,21,3468952.87,Tier 1,1,Discounted
+SUP003,Roberts PLC,Canada,lauriecannon@sullivan.com,11,907790.96,Tier 1,1,Discounted
+SUP004,Keller-Johnson,Canada,wcohen@hoffman-smith.org,9,3977738.16,Tier 2,1,Premium
+SUP005,Curtis Inc,India,vsmith@singh.com,16,2806311.03,Tier 1,1,Premium
+SUP006,"Andrews, Meadows and Lang",UK,victorjones@gamble-garcia.info,25,3400792.9,Tier 1,1,Discounted
+SUP007,Nicholson and Sons,USA,tara26@schmidt-morse.com,7,1721787.04,Tier 1,1,Discounted
+SUP008,"Turner, Sanchez and Cooper",India,robertsfrancisco@moore.org,10,2831808.17,Tier 2,1,Premium
+SUP009,Johnson-Diaz,France,sotorobert@bray.com,25,3858400.81,Tier 3,1,Premium
+SUP010,Ware-Vazquez,China,jessica35@mosley.com,35,3041232.95,Tier 1,1,Discounted
+SUP011,"Lee, Newman and Sandoval",USA,smithlori@hatfield.com,31,4004985.08,Tier 1,1,Standard
+SUP012,Reid LLC,Germany,johnphillips@bennett.com,38,257748.71,Tier 1,1,Standard
+SUP013,Johnson-Holden,Germany,danielrowland@hart-wilson.biz,16,4559379.56,Tier 1,1,Discounted
+SUP014,"Dodson, Wilson and Jacobs",UK,williamskendra@torres-smith.com,31,3821725.22,Tier 2,1,Discounted
+SUP015,Peterson-Robertson,Germany,christian56@gomez.com,12,3253110.21,Tier 2,1,Standard
+SUP016,"Kelly, Orr and Patel",Germany,mlewis@matthews-williams.com,15,2223586.88,Tier 2,1,Standard
+SUP017,Wolfe-Maxwell,India,williamsmith@jackson.info,33,1739534.35,Tier 3,1,Standard
+SUP018,Mann-Adams,Germany,tracygonzalez@hall-torres.com,20,1893559.97,Tier 2,1,Premium
+SUP019,Phillips Group,India,rbell@pena-french.net,12,3778370.98,Tier 3,1,Premium
+SUP020,Harris-Burgess,India,lauren96@hall-diaz.com,11,4018754.96,Tier 2,1,Premium
+SUP021,Walker and Sons,Canada,brett08@barnes.info,36,3983306.36,Tier 2,1,Standard
+SUP022,"Hinton, Schwartz and Hart",Canada,jamiedawson@peters.com,12,3862251.71,Tier 3,1,Standard
+SUP023,"Pratt, Garza and Johnson",Germany,ruth37@huffman.com,24,1608282.63,Tier 1,1,Premium
+SUP024,"Murray, Harmon and Smith",USA,dennismurphy@phillips-simpson.info,28,3808002.31,Tier 1,1,Discounted
+SUP025,Edwards-Ryan,USA,myerscaitlin@snyder.biz,43,4901233.02,Tier 3,1,Premium
+SUP026,Lynch-Moore,Japan,robin88@cook-washington.org,28,4434625.11,Tier 3,1,Premium
+SUP027,Pearson-Kramer,France,corey29@cruz.com,25,89116.06,Tier 2,1,Discounted
+SUP028,"Cobb, Moreno and Rogers",China,emilycurtis@austin.com,28,2258635.8,Tier 1,1,Discounted
+SUP029,Tran PLC,Canada,lrobinson@warner-white.com,25,4443990.74,Tier 2,1,Standard
+SUP030,Olson-Simmons,UK,zrodriguez@green.biz,8,233002.35,Tier 2,1,Premium
+SUP031,Barker PLC,China,deborahdonovan@delgado-owens.info,36,4960023.65,Tier 2,1,Standard
+SUP032,Martinez Ltd,Germany,fmiller@shaw.com,35,2781339.96,Tier 3,1,Premium
+SUP033,"Melton, Warren and Richards",China,sharonmatthews@clark.com,4,188061.57,Tier 3,1,Discounted
+SUP034,Salazar and Sons,UK,laura05@fisher.com,18,4169533.48,Tier 2,1,Discounted
+SUP035,"Price, Bennett and Parrish",Japan,john59@brennan.com,35,596687.44,Tier 1,1,Premium
+SUP036,Taylor LLC,UK,sphillips@adams.com,43,2562121.92,Tier 1,1,Standard
+SUP037,Riley-Kennedy,Germany,emily09@holland-sanchez.com,31,1524907.51,Tier 1,1,Premium
+SUP038,Ochoa-Berry,France,kevinhansen@taylor.com,18,4036668.43,Tier 3,1,Discounted
+SUP039,Shaffer Ltd,India,ddavila@lee-martinez.com,25,1531047.97,Tier 3,1,Discounted
+SUP040,Alvarado-Lewis,China,bushdavid@peterson.com,27,2622349.9,Tier 1,1,Standard
+SUP041,Manning-Hawkins,France,millersusan@sanchez.com,36,2932726.78,Tier 2,1,Premium
+SUP042,Sloan Group,Germany,rogersrachel@brown.biz,12,3572620.08,Tier 2,1,Standard
+SUP043,Williams PLC,Germany,oconnelltiffany@mckenzie-chapman.com,6,2153189.33,Tier 1,1,Premium
+SUP044,Fitzgerald Group,India,nicole67@adams.com,31,436459.83,Tier 3,1,Premium
+SUP045,Carter-Wagner,Japan,daniellecalhoun@anderson.com,19,2942303.7,Tier 2,1,Premium
+SUP046,Williams-Cuevas,Canada,hhill@berry.com,29,4127868.56,Tier 1,1,Discounted
+SUP047,Johnson-Wright,China,tony72@arias-thompson.com,34,3570195.31,Tier 1,1,Discounted
+SUP048,Thomas Ltd,Germany,kaitlinroy@walker.net,16,2304390.25,Tier 1,1,Discounted
+SUP049,Smith-Watkins,China,hopkinstimothy@kelly-morris.com,38,1878193.7,Tier 1,1,Discounted
+SUP050,Rodriguez-Roman,Japan,avilalaura@lambert.com,10,648288.82,Tier 3,1,Premium
+SUP003,ROBERTS PLC,Canada,kmcdaniel@smith.com,11,907790.96,Tier 1,1,Discounted
+SUP034,SALAZAR AND SONS,UK,rhayes@burgess.com,18,4169533.48,Tier 2,1,Discounted
+SUP010,WARE-VAZQUEZ,China,smithashley@barnett.com,35,3041232.95,Tier 1,1,Discounted
+SUP008,"TURNER, SANCHEZ AND COOPER",India,danielflores@good.com,10,2831808.17,Tier 2,1,Premium
+SUP024,"MURRAY, HARMON AND SMITH",USA,wstewart@ford-ortiz.biz,28,3808002.31,Tier 1,1,Discounted
+SUP020,HARRIS-BURGESS,India,malonediana@bryant-ray.com,11,4018754.96,Tier 2,1,Premium
+SUP046,WILLIAMS-CUEVAS,Canada,waynewilliams@salas.org,29,4127868.56,Tier 1,1,Discounted
+SUP045,CARTER-WAGNER,Japan,daniel65@schneider-hobbs.com,19,2942303.7,Tier 2,1,Premium

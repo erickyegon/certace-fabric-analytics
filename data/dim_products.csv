@@ -1,0 +1,269 @@
+ProductID,ProductName,Category,SubCategory,UnitCost,UnitPrice,GrossMarginPct,ReorderPoint,SupplierID,IsActive,LaunchDate
+PRD00001,Laptop DarkViolet v1,Electronics,Laptop,202.46,547.37,63.01,50,SUP020,1,2024-04-26
+PRD00002,Laptop LightYellow v2,Electronics,Laptop,6.81,10.39,34.43,17,SUP034,0,2024-01-12
+PRD00003,Laptop Aquamarine v3,Electronics,Laptop,249.47,616.12,59.51,44,SUP033,1,2024-04-21
+PRD00004,Laptop FloralWhite v4,Electronics,Laptop,309.28,636.03,51.37,27,SUP004,1,2024-09-23
+PRD00005,Laptop Chartreuse v5,Electronics,Laptop,319.66,671.69,52.41,40,SUP032,1,2022-11-26
+PRD00006,Laptop SlateGray v6,Electronics,Laptop,269.71,368.08,26.72,33,SUP019,1,2022-04-25
+PRD00007,Laptop DarkSlateGray v7,Electronics,Laptop,104.3,207.24,49.67,39,SUP003,1,2025-11-26
+PRD00008,Laptop CadetBlue v8,Electronics,Laptop,25.72,48.07,46.49,20,SUP002,1,2021-08-19
+PRD00009,Tablet DarkSalmon v1,Electronics,Tablet,32.99,50.3,34.41,38,SUP038,1,2023-01-17
+PRD00010,Tablet Orange v2,Electronics,Tablet,170.53,377.98,54.88,30,SUP015,1,2023-09-27
+PRD00011,Tablet MediumVioletRed v3,Electronics,Tablet,133.82,188.27,28.92,36,SUP013,1,2025-08-20
+PRD00012,Smartphone Navy v1,Electronics,Smartphone,34.04,65.97,48.4,13,SUP028,1,2022-03-01
+PRD00013,Smartphone SkyBlue v2,Electronics,Smartphone,371.52,654.08,43.2,34,SUP024,1,2022-04-08
+PRD00014,Smartphone Brown v3,Electronics,Smartphone,289.33,581.93,50.28,27,SUP013,1,2025-12-03
+PRD00015,Smartphone LightSlateGray v4,Electronics,Smartphone,17.68,33.84,47.75,27,SUP009,1,2024-05-24
+PRD00016,Headphones Gainsboro v1,Electronics,Headphones,186.14,273.12,31.85,31,SUP015,1,2021-11-19
+PRD00017,Headphones AntiqueWhite v2,Electronics,Headphones,243.44,560.69,56.58,50,SUP040,1,2023-07-25
+PRD00018,Headphones Khaki v3,Electronics,Headphones,233.36,441.22,47.11,24,SUP006,1,2026-04-30
+PRD00019,Headphones Magenta v4,Electronics,Headphones,211.1,521.08,59.49,23,SUP038,1,2026-01-30
+PRD00020,Headphones Pink v5,Electronics,Headphones,187.79,252.34,25.58,37,SUP048,1,2022-01-05
+PRD00021,Headphones Purple v6,Electronics,Headphones,102.89,178.54,42.37,24,SUP038,1,2026-05-20
+PRD00022,Smart Watch Orchid v1,Electronics,Smart Watch,359.81,617.28,41.71,12,SUP003,0,2025-02-06
+PRD00023,Smart Watch SpringGreen v2,Electronics,Smart Watch,294.72,537.5,45.17,37,SUP034,1,2025-12-20
+PRD00024,Smart Watch Orchid v3,Electronics,Smart Watch,324.84,689.19,52.87,16,SUP029,1,2023-10-05
+PRD00025,Smart Watch Cyan v4,Electronics,Smart Watch,37.82,84.28,55.12,36,SUP014,1,2023-09-25
+PRD00026,Smart Watch DarkBlue v5,Electronics,Smart Watch,121.84,248.17,50.91,15,SUP002,1,2024-08-29
+PRD00027,Smart Watch PaleGreen v6,Electronics,Smart Watch,125.41,267.58,53.13,46,SUP048,1,2024-10-12
+PRD00028,Smart Watch LemonChiffon v7,Electronics,Smart Watch,390.69,692.1,43.55,18,SUP046,1,2021-12-01
+PRD00029,Camera PeachPuff v1,Electronics,Camera,252.59,539.22,53.16,10,SUP041,1,2025-05-15
+PRD00030,Camera White v2,Electronics,Camera,357.91,580.23,38.32,12,SUP019,1,2025-01-31
+PRD00031,Camera White v3,Electronics,Camera,111.57,300.27,62.84,44,SUP037,1,2023-05-18
+PRD00032,Camera Orchid v4,Electronics,Camera,316.14,440.54,28.24,31,SUP048,1,2024-08-19
+PRD00033,Camera PowderBlue v5,Electronics,Camera,208.32,539.69,61.4,33,SUP004,1,2026-02-07
+PRD00034,Speaker DarkSlateGray v1,Electronics,Speaker,188.81,257.36,26.63,33,SUP012,1,2023-02-01
+PRD00035,Speaker Blue v2,Electronics,Speaker,283.43,539.15,47.43,23,SUP009,0,2022-05-21
+PRD00036,Speaker DarkGray v3,Electronics,Speaker,99.26,140.88,29.54,40,SUP048,1,2023-10-04
+PRD00037,Speaker LightGreen v4,Electronics,Speaker,234.15,639.13,63.36,23,SUP049,1,2025-10-24
+PRD00038,Speaker MediumOrchid v5,Electronics,Speaker,94.05,154.45,39.11,27,SUP033,1,2023-07-08
+PRD00039,Monitor Khaki v1,Electronics,Monitor,26.51,44.12,39.91,38,SUP032,1,2025-09-23
+PRD00040,Monitor MediumTurquoise v2,Electronics,Monitor,332.68,592.03,43.81,44,SUP044,1,2024-11-30
+PRD00041,Monitor SteelBlue v3,Electronics,Monitor,360.28,632.95,43.08,33,SUP044,1,2023-07-29
+PRD00042,Monitor LemonChiffon v4,Electronics,Monitor,324.47,868.38,62.64,14,SUP013,1,2023-04-14
+PRD00043,Monitor Snow v5,Electronics,Monitor,185.86,258.88,28.21,21,SUP019,0,2023-05-27
+PRD00044,T-Shirt DarkOrchid v1,Apparel,T-Shirt,48.2,75.36,36.04,19,SUP032,1,2022-09-26
+PRD00045,T-Shirt LightGray v2,Apparel,T-Shirt,85.68,232.1,63.08,11,SUP019,1,2025-08-12
+PRD00046,T-Shirt BlanchedAlmond v3,Apparel,T-Shirt,274.55,727.65,62.27,40,SUP023,1,2024-04-17
+PRD00047,Jeans SkyBlue v1,Apparel,Jeans,259.65,409.93,36.66,14,SUP002,1,2024-12-25
+PRD00048,Jeans Pink v2,Apparel,Jeans,96.77,260.82,62.9,31,SUP027,1,2022-03-07
+PRD00049,Jeans FireBrick v3,Apparel,Jeans,264.03,606.59,56.47,41,SUP038,1,2024-05-17
+PRD00050,Jeans YellowGreen v4,Apparel,Jeans,214.42,404.1,46.94,39,SUP020,1,2025-08-12
+PRD00051,Jeans Fuchsia v5,Apparel,Jeans,359.82,573.51,37.26,26,SUP015,1,2024-07-11
+PRD00052,Jeans LightBlue v6,Apparel,Jeans,388.44,878.62,55.79,13,SUP010,1,2023-03-17
+PRD00053,Jeans Tan v7,Apparel,Jeans,185.09,270.82,31.65,20,SUP046,1,2025-09-14
+PRD00054,Jeans White v8,Apparel,Jeans,77.0,113.26,32.01,19,SUP011,1,2021-11-03
+PRD00055,Jacket Navy v1,Apparel,Jacket,397.54,764.22,47.98,38,SUP017,1,2022-04-07
+PRD00056,Jacket DarkKhaki v2,Apparel,Jacket,86.04,184.18,53.29,30,SUP023,1,2024-01-02
+PRD00057,Jacket SeaGreen v3,Apparel,Jacket,182.13,506.18,64.02,44,SUP020,1,2022-07-17
+PRD00058,Dress DarkMagenta v1,Apparel,Dress,164.8,299.51,44.98,19,SUP030,1,2025-03-09
+PRD00059,Dress LightGreen v2,Apparel,Dress,66.64,184.12,63.81,44,SUP033,1,2023-12-25
+PRD00060,Dress DarkOrange v3,Apparel,Dress,283.65,506.12,43.96,28,SUP049,0,2025-02-03
+PRD00061,Sneakers IndianRed v1,Apparel,Sneakers,268.42,623.99,56.98,38,SUP022,1,2022-05-16
+PRD00062,Sneakers SeaGreen v2,Apparel,Sneakers,294.0,753.98,61.01,18,SUP044,1,2021-11-04
+PRD00063,Sneakers SeaShell v3,Apparel,Sneakers,126.69,214.97,41.07,24,SUP029,1,2022-02-07
+PRD00064,Sneakers NavajoWhite v4,Apparel,Sneakers,133.91,264.26,49.33,22,SUP038,1,2024-03-01
+PRD00065,Sneakers Green v5,Apparel,Sneakers,313.61,707.66,55.68,22,SUP002,1,2022-04-21
+PRD00066,Sneakers Tan v6,Apparel,Sneakers,340.53,710.66,52.08,15,SUP033,1,2023-10-13
+PRD00067,Sneakers DarkSlateBlue v7,Apparel,Sneakers,198.73,390.64,49.13,42,SUP004,1,2021-12-04
+PRD00068,Boots Blue v1,Apparel,Boots,162.04,349.51,53.64,37,SUP024,1,2025-07-10
+PRD00069,Boots DarkOrchid v2,Apparel,Boots,9.82,16.04,38.8,29,SUP029,1,2022-05-09
+PRD00070,Boots PaleTurquoise v3,Apparel,Boots,39.6,86.3,54.11,38,SUP048,0,2023-12-31
+PRD00071,Boots SeaGreen v4,Apparel,Boots,322.46,508.17,36.55,37,SUP047,1,2026-05-03
+PRD00072,Boots GhostWhite v5,Apparel,Boots,60.13,116.73,48.49,15,SUP010,1,2025-04-25
+PRD00073,Hoodie Purple v1,Apparel,Hoodie,395.41,732.4,46.01,31,SUP005,1,2024-07-03
+PRD00074,Hoodie BurlyWood v2,Apparel,Hoodie,238.32,397.4,40.03,10,SUP027,1,2025-03-27
+PRD00075,Hoodie PaleVioletRed v3,Apparel,Hoodie,112.96,166.11,32.0,39,SUP046,1,2024-01-01
+PRD00076,Hoodie Plum v4,Apparel,Hoodie,366.37,546.58,32.97,34,SUP019,1,2022-02-23
+PRD00077,Hoodie DarkBlue v5,Apparel,Hoodie,21.68,51.68,58.05,47,SUP020,1,2022-11-02
+PRD00078,Hoodie Aquamarine v6,Apparel,Hoodie,297.24,450.23,33.98,10,SUP010,1,2022-05-19
+PRD00079,Shorts Black v1,Apparel,Shorts,334.53,596.33,43.9,28,SUP027,1,2024-04-02
+PRD00080,Shorts PeachPuff v2,Apparel,Shorts,363.18,738.04,50.79,11,SUP008,1,2021-09-04
+PRD00081,Shorts Indigo v3,Apparel,Shorts,199.75,552.18,63.83,48,SUP048,1,2024-11-16
+PRD00082,Shorts SandyBrown v4,Apparel,Shorts,194.79,338.43,42.44,26,SUP041,1,2023-01-02
+PRD00083,Shorts Navy v5,Apparel,Shorts,389.83,922.26,57.73,33,SUP033,1,2023-06-16
+PRD00084,Shorts DarkGreen v6,Apparel,Shorts,11.93,18.46,35.38,47,SUP004,1,2024-01-23
+PRD00085,Shorts MediumTurquoise v7,Apparel,Shorts,187.11,395.84,52.73,32,SUP011,1,2023-01-15
+PRD00086,Shorts DarkOrchid v8,Apparel,Shorts,147.66,298.0,50.45,32,SUP004,1,2026-01-31
+PRD00087,Coffee Maker SaddleBrown v1,Home & Kitchen,Coffee Maker,257.38,357.84,28.07,22,SUP050,1,2023-11-14
+PRD00088,Coffee Maker DarkGray v2,Home & Kitchen,Coffee Maker,307.05,601.48,48.95,20,SUP035,1,2021-12-21
+PRD00089,Coffee Maker Thistle v3,Home & Kitchen,Coffee Maker,129.9,315.29,58.8,29,SUP018,1,2024-12-13
+PRD00090,Coffee Maker MediumVioletRed v4,Home & Kitchen,Coffee Maker,276.9,389.09,28.83,47,SUP023,1,2022-05-24
+PRD00091,Coffee Maker RoyalBlue v5,Home & Kitchen,Coffee Maker,10.09,18.59,45.73,33,SUP050,1,2025-10-02
+PRD00092,Coffee Maker Fuchsia v6,Home & Kitchen,Coffee Maker,139.42,361.49,61.43,16,SUP014,1,2023-01-05
+PRD00093,Coffee Maker BurlyWood v7,Home & Kitchen,Coffee Maker,92.34,136.87,32.54,45,SUP040,1,2021-10-29
+PRD00094,Blender Navy v1,Home & Kitchen,Blender,339.2,729.49,53.5,17,SUP027,1,2025-03-16
+PRD00095,Blender PaleGreen v2,Home & Kitchen,Blender,35.18,83.27,57.75,11,SUP031,1,2025-12-29
+PRD00096,Blender Khaki v3,Home & Kitchen,Blender,277.97,400.31,30.56,38,SUP039,1,2026-01-28
+PRD00097,Blender SandyBrown v4,Home & Kitchen,Blender,388.19,569.93,31.89,29,SUP002,1,2022-11-25
+PRD00098,Blender DarkOrange v5,Home & Kitchen,Blender,51.85,74.23,30.15,19,SUP045,1,2023-06-24
+PRD00099,Blender Snow v6,Home & Kitchen,Blender,54.51,78.1,30.21,15,SUP028,1,2024-04-09
+PRD00100,Blender DarkRed v7,Home & Kitchen,Blender,314.69,437.73,28.11,40,SUP049,1,2022-03-11
+PRD00101,Toaster DarkSlateGray v1,Home & Kitchen,Toaster,47.59,109.96,56.72,42,SUP038,1,2023-03-08
+PRD00102,Toaster LimeGreen v2,Home & Kitchen,Toaster,51.97,80.1,35.12,14,SUP020,1,2024-03-20
+PRD00103,Toaster DimGray v3,Home & Kitchen,Toaster,303.05,693.4,56.29,48,SUP014,1,2026-04-27
+PRD00104,Toaster Sienna v4,Home & Kitchen,Toaster,84.01,174.38,51.82,11,SUP006,1,2025-12-05
+PRD00105,Vacuum FloralWhite v1,Home & Kitchen,Vacuum,377.03,1017.67,62.95,32,SUP023,1,2025-10-01
+PRD00106,Vacuum Magenta v2,Home & Kitchen,Vacuum,202.75,442.13,54.14,25,SUP033,1,2022-03-18
+PRD00107,Vacuum MediumOrchid v3,Home & Kitchen,Vacuum,44.15,85.11,48.13,10,SUP034,1,2023-03-04
+PRD00108,Vacuum DarkGray v4,Home & Kitchen,Vacuum,80.66,126.57,36.27,44,SUP001,0,2021-09-18
+PRD00109,Vacuum MediumBlue v5,Home & Kitchen,Vacuum,43.98,66.2,33.56,42,SUP046,1,2023-11-13
+PRD00110,Vacuum PaleGoldenRod v6,Home & Kitchen,Vacuum,280.76,415.36,32.41,16,SUP012,1,2022-06-10
+PRD00111,Vacuum Azure v7,Home & Kitchen,Vacuum,392.61,676.49,41.96,42,SUP015,1,2022-12-04
+PRD00112,Vacuum PaleGreen v8,Home & Kitchen,Vacuum,305.76,489.77,37.57,39,SUP008,1,2022-04-09
+PRD00113,Air Fryer LightYellow v1,Home & Kitchen,Air Fryer,306.1,653.91,53.19,45,SUP047,1,2024-01-30
+PRD00114,Air Fryer HotPink v2,Home & Kitchen,Air Fryer,134.61,191.29,29.63,28,SUP030,1,2025-06-05
+PRD00115,Air Fryer DodgerBlue v3,Home & Kitchen,Air Fryer,128.24,356.69,64.05,38,SUP015,1,2024-06-23
+PRD00116,Air Fryer GhostWhite v4,Home & Kitchen,Air Fryer,119.78,293.68,59.21,22,SUP005,1,2021-08-19
+PRD00117,Air Fryer Bisque v5,Home & Kitchen,Air Fryer,321.96,860.01,62.56,33,SUP012,1,2025-03-23
+PRD00118,Air Fryer PaleTurquoise v6,Home & Kitchen,Air Fryer,271.29,563.82,51.88,35,SUP029,1,2023-01-23
+PRD00119,Kettle DarkMagenta v1,Home & Kitchen,Kettle,38.58,55.7,30.73,35,SUP045,1,2022-01-15
+PRD00120,Kettle Chocolate v2,Home & Kitchen,Kettle,45.18,118.93,62.01,20,SUP005,1,2025-09-20
+PRD00121,Kettle PapayaWhip v3,Home & Kitchen,Kettle,83.64,124.86,33.01,35,SUP008,1,2025-09-29
+PRD00122,Kettle Gold v4,Home & Kitchen,Kettle,172.76,313.91,44.96,47,SUP038,1,2024-06-11
+PRD00123,Kettle WhiteSmoke v5,Home & Kitchen,Kettle,316.85,643.39,50.75,35,SUP023,1,2024-04-06
+PRD00124,Kettle Gainsboro v6,Home & Kitchen,Kettle,243.25,413.53,41.18,41,SUP033,1,2022-03-16
+PRD00125,Kettle LightSlateGray v7,Home & Kitchen,Kettle,308.36,436.29,29.32,26,SUP032,1,2024-07-02
+PRD00126,Kettle LightGray v8,Home & Kitchen,Kettle,253.21,363.73,30.38,16,SUP048,1,2025-03-22
+PRD00127,Microwave DarkOliveGreen v1,Home & Kitchen,Microwave,201.76,272.91,26.07,21,SUP025,1,2024-03-22
+PRD00128,Microwave Pink v2,Home & Kitchen,Microwave,134.15,213.31,37.11,49,SUP007,1,2025-09-15
+PRD00129,Microwave AntiqueWhite v3,Home & Kitchen,Microwave,266.13,491.0,45.8,41,SUP030,1,2023-12-02
+PRD00130,Mixer DarkGreen v1,Home & Kitchen,Mixer,201.67,367.96,45.19,44,SUP022,1,2022-10-21
+PRD00131,Mixer DarkSalmon v2,Home & Kitchen,Mixer,218.51,294.12,25.71,12,SUP028,1,2025-02-07
+PRD00132,Mixer LemonChiffon v3,Home & Kitchen,Mixer,52.06,91.34,43.0,34,SUP029,1,2021-07-17
+PRD00133,Mixer LightBlue v4,Home & Kitchen,Mixer,17.98,34.1,47.27,29,SUP046,1,2024-10-04
+PRD00134,Mixer HoneyDew v5,Home & Kitchen,Mixer,175.12,280.18,37.5,34,SUP032,1,2025-04-28
+PRD00135,Mixer AntiqueWhite v6,Home & Kitchen,Mixer,229.7,414.79,44.62,45,SUP044,1,2024-04-07
+PRD00136,Mixer Aqua v7,Home & Kitchen,Mixer,190.58,362.94,47.49,20,SUP033,1,2022-09-19
+PRD00137,Mixer Black v8,Home & Kitchen,Mixer,109.04,212.31,48.64,34,SUP040,1,2023-06-22
+PRD00138,Yoga Mat Aquamarine v1,Sports & Outdoors,Yoga Mat,131.59,178.13,26.13,12,SUP009,1,2025-09-09
+PRD00139,Yoga Mat Indigo v2,Sports & Outdoors,Yoga Mat,142.81,315.13,54.68,11,SUP049,1,2024-01-17
+PRD00140,Yoga Mat Gray v3,Sports & Outdoors,Yoga Mat,139.8,196.61,28.89,32,SUP023,1,2024-02-17
+PRD00141,Yoga Mat DarkSlateGray v4,Sports & Outdoors,Yoga Mat,27.3,41.85,34.77,25,SUP042,1,2025-05-08
+PRD00142,Yoga Mat Gold v5,Sports & Outdoors,Yoga Mat,38.55,81.19,52.52,29,SUP008,1,2022-07-19
+PRD00143,Dumbbells DarkCyan v1,Sports & Outdoors,Dumbbells,217.67,296.13,26.5,37,SUP037,1,2025-10-31
+PRD00144,Dumbbells SkyBlue v2,Sports & Outdoors,Dumbbells,171.36,230.99,25.82,40,SUP038,1,2023-11-21
+PRD00145,Dumbbells AntiqueWhite v3,Sports & Outdoors,Dumbbells,130.02,249.15,47.81,30,SUP037,1,2024-09-16
+PRD00146,Bicycle Sienna v1,Sports & Outdoors,Bicycle,44.52,92.76,52.0,31,SUP032,1,2022-04-26
+PRD00147,Bicycle GhostWhite v2,Sports & Outdoors,Bicycle,307.14,500.08,38.58,49,SUP020,1,2022-05-16
+PRD00148,Bicycle CornflowerBlue v3,Sports & Outdoors,Bicycle,177.22,321.51,44.88,14,SUP035,1,2022-04-06
+PRD00149,Bicycle Gray v4,Sports & Outdoors,Bicycle,109.74,173.89,36.89,46,SUP026,1,2023-10-19
+PRD00150,Bicycle MediumTurquoise v5,Sports & Outdoors,Bicycle,251.71,686.19,63.32,47,SUP007,1,2022-10-27
+PRD00151,Bicycle DarkSlateGray v6,Sports & Outdoors,Bicycle,112.98,215.85,47.66,43,SUP031,1,2022-01-15
+PRD00152,Tennis Racket LightBlue v1,Sports & Outdoors,Tennis Racket,319.28,652.41,51.06,29,SUP033,1,2025-11-12
+PRD00153,Tennis Racket Peru v2,Sports & Outdoors,Tennis Racket,176.0,329.58,46.6,22,SUP027,1,2022-07-25
+PRD00154,Tennis Racket LightSeaGreen v3,Sports & Outdoors,Tennis Racket,251.86,442.86,43.13,45,SUP012,1,2023-05-18
+PRD00155,Tennis Racket Turquoise v4,Sports & Outdoors,Tennis Racket,253.0,465.49,45.65,21,SUP037,1,2025-01-14
+PRD00156,Tennis Racket Aquamarine v5,Sports & Outdoors,Tennis Racket,266.02,632.72,57.96,39,SUP018,1,2025-02-14
+PRD00157,Running Shoes MidnightBlue v1,Sports & Outdoors,Running Shoes,324.53,793.69,59.11,37,SUP037,1,2025-08-10
+PRD00158,Running Shoes SkyBlue v2,Sports & Outdoors,Running Shoes,28.65,42.78,33.03,39,SUP010,1,2025-12-14
+PRD00159,Running Shoes Cornsilk v3,Sports & Outdoors,Running Shoes,299.84,675.64,55.62,37,SUP027,1,2023-07-11
+PRD00160,Running Shoes SandyBrown v4,Sports & Outdoors,Running Shoes,332.93,459.7,27.58,23,SUP027,1,2024-08-24
+PRD00161,Running Shoes LightSteelBlue v5,Sports & Outdoors,Running Shoes,118.38,172.62,31.42,48,SUP016,1,2021-08-11
+PRD00162,Running Shoes Sienna v6,Sports & Outdoors,Running Shoes,49.86,74.06,32.68,25,SUP020,1,2024-01-24
+PRD00163,Running Shoes Cornsilk v7,Sports & Outdoors,Running Shoes,226.13,392.9,42.45,12,SUP013,1,2023-01-04
+PRD00164,Tent Sienna v1,Sports & Outdoors,Tent,16.51,38.03,56.59,27,SUP043,1,2025-07-13
+PRD00165,Tent DarkRed v2,Sports & Outdoors,Tent,259.5,353.97,26.69,41,SUP002,1,2023-05-29
+PRD00166,Tent HotPink v3,Sports & Outdoors,Tent,359.12,575.11,37.56,29,SUP005,1,2021-10-27
+PRD00167,Tent Chocolate v4,Sports & Outdoors,Tent,165.77,274.17,39.54,15,SUP026,1,2025-11-01
+PRD00168,Backpack RoyalBlue v1,Sports & Outdoors,Backpack,337.89,515.4,34.44,46,SUP048,1,2022-04-09
+PRD00169,Backpack Chocolate v2,Sports & Outdoors,Backpack,52.65,108.71,51.57,47,SUP050,1,2021-09-07
+PRD00170,Backpack Aqua v3,Sports & Outdoors,Backpack,104.46,263.67,60.38,25,SUP039,1,2022-10-21
+PRD00171,Backpack HotPink v4,Sports & Outdoors,Backpack,323.64,523.45,38.17,47,SUP048,1,2022-03-03
+PRD00172,Backpack Azure v5,Sports & Outdoors,Backpack,300.61,458.51,34.44,37,SUP014,1,2022-01-06
+PRD00173,Backpack PaleGoldenRod v6,Sports & Outdoors,Backpack,74.19,204.93,63.8,38,SUP027,1,2023-10-03
+PRD00174,Backpack DarkOrchid v7,Sports & Outdoors,Backpack,237.84,429.43,44.61,33,SUP045,1,2025-08-02
+PRD00175,Backpack Snow v8,Sports & Outdoors,Backpack,130.01,223.97,41.95,25,SUP018,1,2021-07-13
+PRD00176,Water Bottle AliceBlue v1,Sports & Outdoors,Water Bottle,148.38,319.97,53.63,29,SUP002,1,2022-11-13
+PRD00177,Water Bottle DarkOrange v2,Sports & Outdoors,Water Bottle,362.57,492.57,26.39,13,SUP045,1,2022-04-03
+PRD00178,Water Bottle Thistle v3,Sports & Outdoors,Water Bottle,270.28,416.58,35.12,34,SUP020,1,2021-08-03
+PRD00179,Water Bottle Orchid v4,Sports & Outdoors,Water Bottle,281.74,724.76,61.13,17,SUP035,1,2023-01-29
+PRD00180,Moisturizer LightGreen v1,Beauty & Health,Moisturizer,158.45,410.4,61.39,35,SUP017,1,2025-04-19
+PRD00181,Moisturizer DarkOrange v2,Beauty & Health,Moisturizer,374.85,837.97,55.27,29,SUP014,1,2023-04-16
+PRD00182,Moisturizer Silver v3,Beauty & Health,Moisturizer,68.29,118.88,42.55,30,SUP050,1,2025-02-12
+PRD00183,Moisturizer AliceBlue v4,Beauty & Health,Moisturizer,316.78,494.67,35.96,15,SUP050,1,2025-03-16
+PRD00184,Moisturizer Moccasin v5,Beauty & Health,Moisturizer,191.08,326.74,41.52,31,SUP046,1,2025-03-12
+PRD00185,Moisturizer GreenYellow v6,Beauty & Health,Moisturizer,367.83,518.19,29.02,20,SUP045,1,2021-10-29
+PRD00186,Shampoo LightGreen v1,Beauty & Health,Shampoo,143.98,282.78,49.08,45,SUP048,1,2021-12-04
+PRD00187,Shampoo Sienna v2,Beauty & Health,Shampoo,279.61,628.04,55.48,21,SUP041,1,2021-11-06
+PRD00188,Shampoo GhostWhite v3,Beauty & Health,Shampoo,258.23,344.87,25.12,22,SUP041,1,2023-06-28
+PRD00189,Vitamin C Serum Beige v1,Beauty & Health,Vitamin C Serum,37.48,54.57,31.31,43,SUP046,0,2025-07-20
+PRD00190,Vitamin C Serum LimeGreen v2,Beauty & Health,Vitamin C Serum,333.1,748.99,55.53,48,SUP044,1,2026-03-11
+PRD00191,Vitamin C Serum SlateGray v3,Beauty & Health,Vitamin C Serum,376.07,660.46,43.06,18,SUP017,1,2023-04-03
+PRD00192,Vitamin C Serum GoldenRod v4,Beauty & Health,Vitamin C Serum,239.24,386.51,38.1,28,SUP013,1,2023-08-12
+PRD00193,Vitamin C Serum PaleGoldenRod v5,Beauty & Health,Vitamin C Serum,150.2,253.46,40.74,34,SUP037,1,2022-09-06
+PRD00194,Vitamin C Serum LightSalmon v6,Beauty & Health,Vitamin C Serum,379.5,996.7,61.92,49,SUP041,1,2025-11-30
+PRD00195,Vitamin C Serum FloralWhite v7,Beauty & Health,Vitamin C Serum,40.15,71.06,43.5,26,SUP045,1,2022-02-08
+PRD00196,Sunscreen DarkOrchid v1,Beauty & Health,Sunscreen,163.41,282.5,42.16,26,SUP010,1,2022-04-09
+PRD00197,Sunscreen FireBrick v2,Beauty & Health,Sunscreen,150.33,405.09,62.89,17,SUP001,1,2025-01-26
+PRD00198,Sunscreen DarkSlateBlue v3,Beauty & Health,Sunscreen,176.89,463.06,61.8,39,SUP044,1,2022-10-18
+PRD00199,Face Mask Sienna v1,Beauty & Health,Face Mask,286.86,425.75,32.62,27,SUP019,1,2024-08-16
+PRD00200,Face Mask Coral v2,Beauty & Health,Face Mask,155.92,270.0,42.25,23,SUP039,1,2026-02-03
+PRD00201,Face Mask HotPink v3,Beauty & Health,Face Mask,330.52,719.59,54.07,22,SUP027,1,2024-09-01
+PRD00202,Face Mask NavajoWhite v4,Beauty & Health,Face Mask,318.02,430.64,26.15,26,SUP016,1,2025-04-08
+PRD00203,Hair Dryer Black v1,Beauty & Health,Hair Dryer,151.01,317.05,52.37,39,SUP006,1,2024-05-17
+PRD00204,Hair Dryer Salmon v2,Beauty & Health,Hair Dryer,57.62,92.83,37.93,35,SUP044,1,2022-01-26
+PRD00205,Hair Dryer DarkKhaki v3,Beauty & Health,Hair Dryer,156.48,269.48,41.93,48,SUP017,1,2022-05-29
+PRD00206,Hair Dryer PowderBlue v4,Beauty & Health,Hair Dryer,225.01,308.59,27.08,25,SUP031,1,2024-07-29
+PRD00207,Electric Toothbrush DarkKhaki v1,Beauty & Health,Electric Toothbrush,376.03,1035.56,63.69,48,SUP046,1,2025-12-22
+PRD00208,Electric Toothbrush CadetBlue v2,Beauty & Health,Electric Toothbrush,22.98,35.43,35.15,49,SUP025,1,2025-03-06
+PRD00209,Electric Toothbrush DarkOrchid v3,Beauty & Health,Electric Toothbrush,160.91,267.45,39.84,45,SUP003,1,2023-02-16
+PRD00210,Electric Toothbrush Moccasin v4,Beauty & Health,Electric Toothbrush,107.82,196.57,45.15,31,SUP030,1,2025-06-13
+PRD00211,Electric Toothbrush DarkTurquoise v5,Beauty & Health,Electric Toothbrush,130.34,242.34,46.22,19,SUP017,1,2022-09-20
+PRD00212,Electric Toothbrush MistyRose v6,Beauty & Health,Electric Toothbrush,22.44,32.11,30.11,27,SUP048,1,2024-10-08
+PRD00213,Electric Toothbrush Lavender v7,Beauty & Health,Electric Toothbrush,174.88,449.7,61.11,26,SUP040,1,2025-12-25
+PRD00214,Perfume LightSeaGreen v1,Beauty & Health,Perfume,209.2,363.39,42.43,20,SUP021,1,2026-04-08
+PRD00215,Perfume Coral v2,Beauty & Health,Perfume,199.05,538.0,63.0,45,SUP043,1,2023-03-31
+PRD00216,Perfume DimGray v3,Beauty & Health,Perfume,178.8,265.11,32.56,13,SUP015,1,2021-10-05
+PRD00217,Perfume LemonChiffon v4,Beauty & Health,Perfume,190.75,278.64,31.54,39,SUP028,1,2024-07-14
+PRD00218,Perfume DarkGreen v5,Beauty & Health,Perfume,358.59,649.58,44.8,38,SUP023,0,2023-03-05
+PRD00219,Board Game DarkSalmon v1,Toys & Games,Board Game,196.65,355.73,44.72,19,SUP008,1,2022-01-14
+PRD00220,Board Game DarkCyan v2,Toys & Games,Board Game,85.47,134.31,36.36,20,SUP048,1,2025-05-15
+PRD00221,Board Game Moccasin v3,Toys & Games,Board Game,112.75,286.43,60.64,47,SUP014,1,2026-06-05
+PRD00222,Board Game MintCream v4,Toys & Games,Board Game,388.79,720.52,46.04,46,SUP012,1,2025-08-14
+PRD00223,Board Game DarkSlateBlue v5,Toys & Games,Board Game,35.35,79.85,55.73,16,SUP022,1,2025-02-21
+PRD00224,Board Game Olive v6,Toys & Games,Board Game,274.12,573.78,52.23,35,SUP024,1,2023-09-04
+PRD00225,Board Game Ivory v7,Toys & Games,Board Game,380.73,916.96,58.48,19,SUP002,1,2026-05-27
+PRD00226,Action Figure Magenta v1,Toys & Games,Action Figure,265.52,467.15,43.16,27,SUP039,1,2024-08-12
+PRD00227,Action Figure Fuchsia v2,Toys & Games,Action Figure,135.12,184.47,26.75,49,SUP029,1,2022-11-10
+PRD00228,Action Figure DarkSlateBlue v3,Toys & Games,Action Figure,293.96,644.26,54.37,46,SUP009,1,2023-02-27
+PRD00229,Action Figure WhiteSmoke v4,Toys & Games,Action Figure,24.23,49.19,50.75,30,SUP004,1,2022-12-19
+PRD00230,Action Figure BlanchedAlmond v5,Toys & Games,Action Figure,221.13,434.37,49.09,15,SUP026,1,2025-10-29
+PRD00231,Action Figure PeachPuff v6,Toys & Games,Action Figure,99.83,226.04,55.84,35,SUP006,1,2022-08-28
+PRD00232,Action Figure Thistle v7,Toys & Games,Action Figure,87.25,146.74,40.54,35,SUP019,1,2025-09-07
+PRD00233,Action Figure Lavender v8,Toys & Games,Action Figure,382.0,554.95,31.17,29,SUP032,1,2025-08-27
+PRD00234,Lego Set SlateGray v1,Toys & Games,Lego Set,323.51,516.82,37.4,48,SUP009,1,2023-11-17
+PRD00235,Lego Set AntiqueWhite v2,Toys & Games,Lego Set,42.96,71.24,39.7,22,SUP032,1,2024-03-31
+PRD00236,Lego Set PaleVioletRed v3,Toys & Games,Lego Set,158.3,246.34,35.74,48,SUP028,1,2025-06-28
+PRD00237,Lego Set DodgerBlue v4,Toys & Games,Lego Set,171.9,285.21,39.73,21,SUP028,1,2025-02-20
+PRD00238,Lego Set MediumSpringGreen v5,Toys & Games,Lego Set,41.71,76.58,45.53,39,SUP044,1,2023-11-12
+PRD00239,Lego Set PapayaWhip v6,Toys & Games,Lego Set,276.06,401.27,31.2,41,SUP034,1,2022-09-29
+PRD00240,Lego Set DeepSkyBlue v7,Toys & Games,Lego Set,212.25,334.93,36.63,37,SUP006,1,2023-03-11
+PRD00241,Lego Set Chartreuse v8,Toys & Games,Lego Set,193.66,280.44,30.94,18,SUP044,1,2022-04-03
+PRD00242,Puzzle LightYellow v1,Toys & Games,Puzzle,211.62,334.94,36.82,13,SUP036,1,2025-10-07
+PRD00243,Puzzle MediumSlateBlue v2,Toys & Games,Puzzle,22.81,32.27,29.31,37,SUP027,1,2026-02-12
+PRD00244,Puzzle Silver v3,Toys & Games,Puzzle,266.04,509.06,47.74,26,SUP023,1,2025-04-24
+PRD00245,Puzzle FloralWhite v4,Toys & Games,Puzzle,37.3,67.99,45.14,17,SUP048,1,2026-01-13
+PRD00246,RC Car MintCream v1,Toys & Games,RC Car,315.54,764.32,58.72,12,SUP006,1,2023-11-24
+PRD00247,RC Car DarkMagenta v2,Toys & Games,RC Car,283.23,453.59,37.56,39,SUP049,1,2022-11-13
+PRD00248,RC Car Aqua v3,Toys & Games,RC Car,251.41,390.41,35.6,21,SUP014,1,2025-05-06
+PRD00249,RC Car RoyalBlue v4,Toys & Games,RC Car,300.08,590.27,49.16,16,SUP028,1,2024-10-10
+PRD00250,Doll YellowGreen v1,Toys & Games,Doll,161.0,216.2,25.53,40,SUP030,1,2022-05-18
+PRD00251,Doll WhiteSmoke v2,Toys & Games,Doll,348.17,957.36,63.63,48,SUP047,1,2025-01-03
+PRD00252,Doll SlateGray v3,Toys & Games,Doll,249.31,691.7,63.96,33,SUP045,1,2024-07-16
+PRD00253,Card Game LightSkyBlue v1,Toys & Games,Card Game,271.67,634.53,57.19,15,SUP009,1,2024-05-25
+PRD00254,Card Game ForestGreen v2,Toys & Games,Card Game,80.37,189.73,57.64,22,SUP002,1,2022-09-17
+PRD00255,Card Game LightYellow v3,Toys & Games,Card Game,261.21,532.97,50.99,37,SUP041,1,2025-06-29
+PRD00256,Card Game DarkTurquoise v4,Toys & Games,Card Game,217.74,304.29,28.44,39,SUP010,1,2026-01-10
+PRD00257,Card Game MidnightBlue v5,Toys & Games,Card Game,13.62,19.93,31.64,19,SUP048,1,2023-01-21
+PRD00258,Card Game LavenderBlush v6,Toys & Games,Card Game,385.73,687.08,43.86,38,SUP038,1,2023-11-16
+PRD00259,Card Game LightGreen v7,Toys & Games,Card Game,121.46,290.42,58.18,35,SUP004,1,2024-02-16
+PRD00260,Card Game Maroon v8,Toys & Games,Card Game,45.55,110.84,58.91,37,SUP027,1,2022-06-17
+PRD00261,Building Blocks Linen v1,Toys & Games,Building Blocks,233.57,510.46,54.24,28,SUP003,1,2024-05-27
+PRD00262,Building Blocks Silver v2,Toys & Games,Building Blocks,197.01,383.6,48.64,49,SUP044,1,2023-11-03
+PRD00263,Building Blocks Magenta v3,Toys & Games,Building Blocks,347.72,529.06,34.28,13,SUP034,1,2022-08-10
+PRD00264,Building Blocks RoyalBlue v4,Toys & Games,Building Blocks,232.68,440.1,47.13,27,SUP042,1,2024-09-28
+PRD00265,Building Blocks Coral v5,Toys & Games,Building Blocks,191.97,347.72,44.79,32,SUP029,1,2023-06-22
+PRD00266,Building Blocks Violet v6,Toys & Games,Building Blocks,13.22,20.83,36.52,22,SUP031,1,2022-03-20
+PRD00267,Building Blocks Navy v7,Toys & Games,Building Blocks,96.68,146.02,33.79,31,SUP039,1,2022-06-01
+PRD00268,Building Blocks DarkCyan v8,Toys & Games,Building Blocks,287.5,511.01,43.74,28,SUP047,1,2026-04-11

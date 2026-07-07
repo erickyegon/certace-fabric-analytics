@@ -1,0 +1,29 @@
+// ============================================================
+// CertiAce — Supplier Delivery Performance Measures
+// ============================================================
+
+Total Deliveries = COUNTROWS(FactDeliveries)
+
+On Time Delivery Count =
+CALCULATE(COUNTROWS(FactDeliveries), FactDeliveries[DeliveryStatus] = "On Time")
+
+On Time Delivery Rate =
+DIVIDE([On Time Delivery Count], [Total Deliveries], 0)
+
+Late Delivery Rate =
+1 - [On Time Delivery Rate]
+
+Avg Delivery Delay Days =
+AVERAGEX(
+    FILTER(FactDeliveries, FactDeliveries[DeliveryStatus] <> "On Time"),
+    DATEDIFF(FactDeliveries[ExpectedDeliveryDate], FactDeliveries[ActualDeliveryDate], DAY)
+)
+
+Missing Delivery Dates =
+CALCULATE(COUNTROWS(FactDeliveries), ISBLANK(FactDeliveries[ActualDeliveryDate]))
+
+Missing Delivery Rate =
+DIVIDE([Missing Delivery Dates], [Total Deliveries], 0)
+
+Qty Fill Rate =
+DIVIDE(SUM(FactDeliveries[QuantityReceived]), SUM(FactDeliveries[QuantityOrdered]), 0)

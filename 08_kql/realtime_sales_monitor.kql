@@ -1,0 +1,28 @@
+// ============================================================
+// CertiAce — Real-Time Sales Monitoring (Eventhouse / KQL)
+// ============================================================
+
+// Live sales last 15 minutes by region
+SalesStream
+| where ingestion_time() > ago(15m)
+| summarize
+    TotalSales = sum(NetSales),
+    TxCount = count(),
+    AvgTxValue = avg(NetSales),
+    UnitsSOld = sum(Quantity)
+  by bin(ingestion_time(), 1m), Region
+| order by ingestion_time() desc
+
+// Hourly sales trend — today vs yesterday
+SalesStream
+| where ingestion_time() > ago(48h)
+| extend HourBucket = bin(ingestion_time(), 1h)
+| extend IsToday = HourBucket > ago(24h)
+| summarize HourlySales = sum(NetSales) by HourBucket, IsToday
+| order by HourBucket asc
+
+// Top 10 products by sales — last 24 hours
+SalesStream
+| where ingestion_time() > ago(24h)
+| summarize TotalSales = sum(NetSales), UnitsSold = sum(Quantity) by ProductID
+| top 10 by TotalSales desc
