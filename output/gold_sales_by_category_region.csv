@@ -1,0 +1,79 @@
+Category,Region,TotalNetSales,TotalGrossMargin,TotalQty
+Apparel,Canada East,13190930.21,6304613.85,32779
+Apparel,Canada West,14472672.48,6930578.35,36108
+Apparel,DACH,11981083.15,5773884.33,29815
+Apparel,Eastern Europe,12870547.87,6202649.6,31939
+Apparel,France & Benelux,12196821.89,5829361.95,31071
+Apparel,Midwest US,13900393.82,6631884.48,35023
+Apparel,Nordics,11066874.49,5317785.71,27876
+Apparel,Northeast US,16677758.51,7983720.63,42051
+Apparel,Southeast US,18887495.33,9032800.62,47353
+Apparel,Southern Europe,9065351.83,4326289.27,23038
+Apparel,Southwest US,15327453.78,7363696.32,38319
+Apparel,UK & Ireland,11803969.39,5676920.58,29264
+Apparel,West US,14012087.17,6725066.54,34950
+Beauty & Health,Canada East,11413988.39,5244984.56,30315
+Beauty & Health,Canada West,12334201.41,5675782.2,32339
+Beauty & Health,DACH,10406758.01,4807789.56,27219
+Beauty & Health,Eastern Europe,11092736.35,5104247.36,28998
+Beauty & Health,France & Benelux,11069026.03,5083306.61,28983
+Beauty & Health,Midwest US,12275121.1,5667293.96,32065
+Beauty & Health,Nordics,9709177.37,4471820.12,25727
+Beauty & Health,Northeast US,14688861.84,6783747.18,38357
+Beauty & Health,Southeast US,16357159.45,7525565.01,43325
+Beauty & Health,Southern Europe,8049126.78,3707408.85,20792
+Beauty & Health,Southwest US,12846129.31,5910704.84,33545
+Beauty & Health,UK & Ireland,10110824.08,4644069.64,26874
+Beauty & Health,West US,11789520.32,5437643.07,30628
+Electronics,Canada East,12732659.04,5881943.93,33934
+Electronics,Canada West,13729457.15,6314381.93,36552
+Electronics,DACH,10881330.39,5012960.13,29195
+Electronics,Eastern Europe,12509052.59,5808465.47,32906
+Electronics,France & Benelux,11932348.54,5534213.51,31448
+Electronics,Midwest US,13123402.92,6085925.8,34613
+Electronics,Nordics,10631182.35,4898356.83,28178
+Electronics,Northeast US,16121862.62,7471348.57,42568
+Electronics,Southeast US,17783990.85,8236584.14,47270
+Electronics,Southern Europe,8954185.3,4115146.01,23572
+Electronics,Southwest US,14200885.21,6583733.32,37883
+Electronics,UK & Ireland,11452357.69,5257800.9,30335
+Electronics,West US,13131044.2,6057558.66,34799
+Home & Kitchen,Canada East,13100152.93,5685195.51,40135
+Home & Kitchen,Canada West,13973034.81,6059021.85,42939
+Home & Kitchen,DACH,11374837.03,4905535.76,34724
+Home & Kitchen,Eastern Europe,12494524.71,5405950.98,37955
+Home & Kitchen,France & Benelux,11956913.21,5194919.79,36558
+Home & Kitchen,Midwest US,13394161.23,5784316.68,41141
+Home & Kitchen,Nordics,10845541.03,4692331.71,33323
+Home & Kitchen,Northeast US,16122432.97,6976477.49,49495
+Home & Kitchen,Southeast US,18755097.85,8095771.28,57044
+Home & Kitchen,Southern Europe,9394545.6,4042741.07,28406
+Home & Kitchen,Southwest US,14963622.53,6515045.46,45796
+Home & Kitchen,UK & Ireland,11548439.99,5016392.5,34846
+Home & Kitchen,West US,13405389.98,5759081.51,41112
+Sports & Outdoors,Canada East,10948783.6,4633535.26,32591
+Sports & Outdoors,Canada West,12093458.66,5150465.74,35765
+Sports & Outdoors,DACH,9775724.53,4119888.14,29278
+Sports & Outdoors,Eastern Europe,10586982.11,4500019.3,31964
+Sports & Outdoors,France & Benelux,10101463.66,4264260.49,30657
+Sports & Outdoors,Midwest US,11029318.68,4669109.27,33711
+Sports & Outdoors,Nordics,9324741.09,3960694.86,27924
+Sports & Outdoors,Northeast US,13622770.59,5803127.16,40598
+Sports & Outdoors,Southeast US,15131603.56,6445024.0,45294
+Sports & Outdoors,Southern Europe,7594504.69,3179784.01,23085
+Sports & Outdoors,Southwest US,12863697.99,5443920.23,37828
+Sports & Outdoors,UK & Ireland,9859358.83,4206774.72,29183
+Sports & Outdoors,West US,11112222.32,4718272.33,33526
+Toys & Games,Canada East,14086867.46,6317001.79,39613
+Toys & Games,Canada West,15043744.24,6731463.01,42340
+Toys & Games,DACH,12251624.66,5478985.9,34234
+Toys & Games,Eastern Europe,13415269.52,5985925.28,37838
+Toys & Games,France & Benelux,12854918.87,5786414.89,36171
+Toys & Games,Midwest US,14119303.24,6317278.15,39950
+Toys & Games,Nordics,11703891.13,5250488.41,32815
+Toys & Games,Northeast US,17311471.82,7755755.09,48920
+Toys & Games,Southeast US,19385437.47,8710476.33,54385
+Toys & Games,Southern Europe,9623500.03,4324528.25,27280
+Toys & Games,Southwest US,15697025.96,7023471.89,44394
+Toys & Games,UK & Ireland,12210490.88,5483778.73,34228
+Toys & Games,West US,14364978.65,6464937.76,40112

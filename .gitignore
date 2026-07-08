@@ -1,0 +1,9 @@
+# Derived Gold output (regenerate with notebooks/medallion_local.py)
+output/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
