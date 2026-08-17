@@ -61,75 +61,38 @@ Data Flow:
 ```
 certace-fabric-analytics/
 │
-├── 📂 01_data/
-│   ├── raw/
-│   │   ├── pos_data/
-│   │   │   └── fact_sales.csv              # 500K rows POS transactions
-│   │   └── sap_exports/
-│   │       └── fact_supplier_deliveries.csv # 40K rows (with intentional DQ issues)
-│   └── dimensions/
-│       ├── dim_stores.csv                  # 1,685 stores across NA & Europe
-│       ├── dim_products.csv                # 268 products across 6 categories
-│       ├── dim_suppliers.csv               # 58 suppliers (8 duplicates embedded)
-│       ├── dim_date.csv                    # 1,096 days (2022–2024)
-│       └── security_groups.csv             # 18 security group definitions
+├── 📂 data/                                # 555K rows across 8 datasets (see below)
+│   ├── pos_data/fact_sales.csv             # 500K POS transactions
+│   ├── sap_exports/fact_supplier_deliveries.csv  # 40K rows, intentional DQ issues
+│   ├── fact_inventory.csv
+│   ├── dim_stores.csv / dim_products.csv / dim_suppliers.csv / dim_date.csv
+│   └── security_groups.csv                 # 18 security group definitions
 │
-├── 📂 02_bronze/
-│   └── notebooks/
-│       ├── ingest_pos_sales.ipynb          # POS → Bronze Lakehouse
-│       └── ingest_sap_deliveries.ipynb     # SAP CSV → Bronze (with error handling)
+├── 📂 notebooks/                           # End-to-end medallion pipeline (runnable)
+│   ├── medallion_fabric.py                 # Full Bronze→Silver→Gold, PySpark, runs in any Fabric Lakehouse
+│   │                                        # (pulls the raw CSVs directly from this repo's GitHub URLs)
+│   ├── medallion_local.py                  # Same Bronze→Silver→Gold logic, pandas-only — runs on any machine
+│   ├── make_charts.py                      # Renders the charts below from the Gold layer
+│   └── README.md                           # How to run each script
 │
-├── 📂 03_silver/
-│   └── notebooks/
-│       ├── transform_sales.ipynb           # Enrich: gross margin, net sales calc
-│       ├── clean_suppliers.ipynb           # Deduplicate + standardize suppliers
-│       ├── transform_deliveries.ipynb      # Null handling, file naming validation
-│       └── transform_inventory.ipynb       # Reorder status + DQ checks
+├── 📂 02_bronze/notebooks/                 # Reference notebook: POS ingestion with audit columns
+├── 📂 03_silver/notebooks/                 # Reference notebook: supplier dedup logic
 │
-├── 📂 04_gold/
-│   └── notebooks/
-│       ├── build_fact_sales_gold.ipynb     # Star schema fact table
-│       ├── build_fact_inventory_gold.ipynb
-│       ├── build_fact_deliveries_gold.ipynb
-│       └── build_dimensions_gold.ipynb     # Conformed dims
+├── 📂 06_semantic_model/measures/          # DAX measure library (sales, inventory, supplier KPIs)
+├── 📂 07_security/rls_definitions.md       # Dynamic RLS (per-region) + OLS (hidden pricing columns)
+├── 📂 08_kql/                              # KQL queries for Eventhouse: real-time sales, delivery anomalies
+├── 📂 09_deployment/pre_deployment_checks.md  # Dev→Test→Prod promotion checklist
 │
-├── 📂 05_pipelines/
-│   ├── pipeline_pos_ingestion.json         # ForEach + Copy Data + error handling
-│   ├── pipeline_sap_ingestion.json         # Parameterized + retry logic
-│   └── pipeline_master_orchestrator.json   # Master pipeline with dependencies
-│
-├── 📂 06_semantic_model/
-│   ├── CertiAce_Model.bim                  # Semantic model definition (TMSL)
-│   ├── measures/
-│   │   ├── sales_measures.dax              # Core sales KPIs
-│   │   ├── time_intelligence.dax           # MTD, QTD, YTD, YoY
-│   │   ├── inventory_measures.dax          # Out-of-stock, reorder rates
-│   │   └── supplier_measures.dax           # Delivery performance
-│   └── CertiAce_Template.pbit              # Power BI template file
-│
-├── 📂 07_security/
-│   ├── rls_definitions.md                  # Row-level security DAX filters
-│   ├── ols_definitions.md                  # Object-level security (supplier pricing)
-│   ├── sensitivity_labels.md               # Gold dataset labeling
-│   └── workspace_access_matrix.md          # Group → Workspace → Role mapping
-│
-├── 📂 08_kql/
-│   ├── realtime_sales_monitor.kql          # KQL queries for Eventhouse
-│   ├── delivery_anomaly_detection.kql      # Late delivery alerting
-│   └── inventory_alerts.kql               # Out-of-stock KQL dashboard
-│
-├── 📂 09_deployment/
-│   ├── deployment_pipeline_config.json     # Dev → Test → Prod config
-│   ├── pre_deployment_checks.md            # Impact analysis checklist
-│   └── rollback_procedure.md
-│
-├── 📂 10_docs/
-│   ├── data_dictionary.md                  # All tables, columns, definitions
-│   ├── architecture_decisions.md           # ADRs for key design choices
-│   └── business_glossary.md
-│
+├── 📂 docs/images/                         # Gold-layer charts (category, region, monthly trend)
+├── 📂 output/gold_sales_by_category_region.csv
 └── README.md
 ```
+
+> **Note on scope:** `notebooks/medallion_fabric.py` and `medallion_local.py` are the working,
+> runnable implementation of the full Bronze → Silver → Gold pipeline. The numbered folders
+> (`02_bronze`, `03_silver`, `06_semantic_model`, etc.) hold focused reference artifacts —
+> DAX measures, RLS/OLS definitions, KQL queries, deployment checklist — that map directly to
+> pieces of that pipeline rather than a separate parallel build.
 
 ---
 
@@ -534,31 +497,53 @@ Dev → Test → Prod Promotion Rules:
 
 | Domain | Coverage | Implementation |
 |--------|----------|---------------|
-| **Implement and manage a data analytics solution** | ✅ Full | Workspace setup, capacity management, Git integration |
-| **Prepare and serve data** | ✅ Full | Bronze/Silver/Gold pipelines, PySpark, T-SQL |
-| **Implement and manage semantic models** | ✅ Full | Direct Lake, incremental refresh, DAX, RLS, OLS |
-| **Explore and analyze data** | ✅ Full | KQL queries, Power BI reports, Eventhouse |
-| **Security & governance** | ✅ Full | Security groups, RLS, OLS, sensitivity labels, endorsement |
-| **Lifecycle management** | ✅ Full | Deployment pipelines, Git, XMLA endpoint, impact analysis |
-| **Data quality** | ✅ Full | Duplicate removal, null handling, quarantine pattern |
+| **Implement and manage a data analytics solution** | ✅ Implemented | Workspace/capacity design (`RetailCap`, dev/test/prod), Git-backed repo |
+| **Prepare and serve data** | ✅ Implemented | Working Bronze/Silver/Gold pipeline (PySpark, runnable) |
+| **Implement and manage semantic models** | ✅ Implemented | DAX measure library, Direct Lake-ready star schema |
+| **Explore and analyze data** | 🔶 Designed | KQL queries written against a modeled Eventhouse schema (not deployed) |
+| **Security & governance** | ✅ Implemented | Security-group access matrix, dynamic RLS, OLS on pricing columns |
+| **Lifecycle management** | 🔶 Designed | Dev→test→prod promotion checklist and workspace strategy (pipeline not deployed) |
+| **Data quality** | ✅ Implemented | Intentional dedup/null/naming issues built into the data, handled in the Silver transform |
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Microsoft Fabric trial or F128 capacity
-- Azure DevOps organization (for Git integration)
-- Power BI Desktop (for `.pbit` template)
+### Run it yourself
+- **In Fabric:** create a Lakehouse, open a new notebook, attach the Lakehouse, paste in
+  [`notebooks/medallion_fabric.py`](notebooks/medallion_fabric.py), and **Run all**. It pulls
+  the raw CSVs straight from this repo's GitHub URLs — no upload needed — and writes
+  `bronze_*` → `silver_*` → `gold_sales_enriched` / `gold_sales_by_category_region` as Delta tables.
+- **Locally (no Fabric access needed):**
+  ```bash
+  pip install pandas pyarrow matplotlib
+  python notebooks/medallion_local.py   # builds ../output/gold_*
+  python notebooks/make_charts.py       # builds ../docs/images/*.png
+  ```
 
-### Setup Steps
-1. Clone this repo and connect to Azure DevOps
-2. Create four workspaces in Fabric: `ws_retail_dev`, `ws_retail_test`, `ws_retail_prod`, `ws_experiment_sandbox`
-3. Upload raw CSVs to Bronze Lakehouse `Files/` section
-4. Run notebooks in order: `02_bronze` → `03_silver` → `04_gold`
-5. Import semantic model via XMLA endpoint
-6. Configure deployment pipeline Dev → Test → Prod
-7. Apply security groups and RLS/OLS definitions
+### Applying the DAX / RLS / KQL artifacts
+- Import `06_semantic_model/measures/*.dax` into a Power BI semantic model built on the Gold tables.
+- Apply the RLS role and OLS column rules documented in `07_security/rls_definitions.md`.
+- Point the `08_kql/*.kql` queries at an Eventhouse fed by a streaming version of the sales/delivery data.
+
+---
+
+## 🔄 Migration Approach: Synapse/Dataflows → Fabric
+
+The medallion pipeline above is written the way I'd structure a **migration** of an existing
+Synapse + Power BI dataflow environment into Fabric, not just a greenfield build:
+
+| Legacy asset | Fabric target | Migration note |
+|---|---|---|
+| Synapse Serverless SQL views / Spark notebooks | Lakehouse notebooks (PySpark) writing Delta | Same transform logic, swap `saveAsTable` for the Lakehouse instead of external tables |
+| Power BI dataflows (Power Query / M) doing cleansing | Silver-layer notebook transforms | Moves cleansing off the dataflow refresh clock and into the pipeline, so it's version-controlled and testable |
+| Import-mode datasets refreshed nightly | Direct Lake semantic model over Gold tables | Removes the separate dataset refresh step entirely |
+| Ad hoc workspace access | Security-group-based workspace roles + RLS/OLS (`07_security/`) | Matches "individual grants → group-based access" pattern common in legacy Power BI environments |
+| Manual promotion between environments | Fabric deployment pipelines, dev → test → prod | See `09_deployment/pre_deployment_checks.md` for the promotion checklist |
+
+In practice this is the same sequencing I'd use on a real migration: stand up Bronze/Silver/Gold
+in parallel with the legacy dataflows, validate Gold output against the existing Power BI numbers,
+then cut reports over to Direct Lake once parity is confirmed — rather than a big-bang cutover.
 
 ---
 
@@ -572,4 +557,4 @@ Microsoft Certified: Fabric Analytics Engineer Associate (DP-600) · Power BI Da
 
 ---
 
-*This project is part of the [YegonFabricLabs](https://github.com/erickyegon/DP600) portfolio — demonstrating enterprise-scale Microsoft Fabric implementations.*
+*Raw source data for this project lives in [erickyegon/DP600](https://github.com/erickyegon/DP600).*
