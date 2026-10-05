@@ -547,13 +547,7 @@ then cut reports over to Direct Lake once parity is confirmed — rather than a 
 
 ---
 
-## 👤 Author
-
-**Erick Kiprotich Yegon, PhD**
-Microsoft Certified: Power BI Data Analyst Associate (PL-300) · Microsoft Fabric Analytics Engineer (DP-600): in preparation
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/)
-[![GitHub](https://img.shields.io/badge/GitHub-erickyegon-181717?style=flat&logo=github)](https://github.com/erickyegon)
+Author: Erick Kiprotich Yegon, epidemiologist and data scientist (real-world evidence, HEOR, causal inference) · Portfolio: https://erickyegon.github.io · LinkedIn: https://linkedin.com/in/erickyegon
 
 ---
 
