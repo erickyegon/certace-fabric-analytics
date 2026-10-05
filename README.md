@@ -550,11 +550,11 @@ then cut reports over to Direct Lake once parity is confirmed — rather than a 
 ## 👤 Author
 
 **Erick Kiprotich Yegon, PhD**
-Microsoft Certified: Fabric Analytics Engineer Associate (DP-600) · Power BI Data Analyst Associate (PL-300)
+Microsoft Certified: Power BI Data Analyst Associate (PL-300) · Microsoft Fabric Analytics Engineer (DP-600): in preparation
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/)
 [![GitHub](https://img.shields.io/badge/GitHub-erickyegon-181717?style=flat&logo=github)](https://github.com/erickyegon)
 
 ---
 
-*Raw source data for this project lives in [erickyegon/DP600](https://github.com/erickyegon/DP600).*
+*Raw source data for this project lives in the repository's [`data/`](data/) folder.*
